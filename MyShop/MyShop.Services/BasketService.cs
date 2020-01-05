@@ -10,7 +10,7 @@ using System.Web;
 
 namespace MyShop.Services
 {
-    public class BasketService
+    public class BasketService : IBasketService
     {
         IRepository<Product> productContext;
         IRepository<Basket> basketContext;
