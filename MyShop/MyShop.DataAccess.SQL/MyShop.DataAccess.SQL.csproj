@@ -60,6 +60,14 @@
     <Compile Include="Migrations\202001140617300_AddCustomers.Designer.cs">
       <DependentUpon>202001140617300_AddCustomers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001210652290_AddOrder.cs" />
+    <Compile Include="Migrations\202001210652290_AddOrder.Designer.cs">
+      <DependentUpon>202001210652290_AddOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001210653560_AddOrderItems.cs" />
+    <Compile Include="Migrations\202001210653560_AddOrderItems.Designer.cs">
+      <DependentUpon>202001210653560_AddOrderItems.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLRepository.cs" />
@@ -83,6 +91,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001140617300_AddCustomers.resx">
       <DependentUpon>202001140617300_AddCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001210652290_AddOrder.resx">
+      <DependentUpon>202001210652290_AddOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001210653560_AddOrderItems.resx">
+      <DependentUpon>202001210653560_AddOrderItems.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
